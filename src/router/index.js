@@ -1,22 +1,63 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    redirect: '/home'
   },
   {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    path: '/home',
+    component: () => import('@/pages/home'),
+    meta: {
+      tabBar: true
+    }
+  },
+  {
+    path: '/newProduct',
+    component: () => import('@/pages/newProduct'),
+    meta: {
+      tabBar: true
+    }
+  },
+  {
+    path: '/shopping',
+    component: () => import('@/pages/shopping'),
+    meta: {
+      tabBar: true
+    }
+  },
+  {
+    path: '/cart',
+    component: () => import('@/pages/cart'),
+    meta: {
+      tabBar: true
+    }
+  },
+  {
+    path: '/profile',
+    component: () => import('@/pages/profile'),
+    meta: {
+      tabBar: true
+    }
+  },
+  {
+    path: '/catgory',
+    component: () => import('@/pages/catgory')
+  },
+  {
+    path: '/login',
+    component: () => import('@/pages/login')
+  },
+  {
+    path: '/register',
+    component: () => import('@/pages/login/register.vue')
+  },
+  {
+    path: '/detail/:id',
+    component: () => import('@/pages/detail')
   }
 ]
 

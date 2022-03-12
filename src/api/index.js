@@ -1,0 +1,11 @@
+import request from '@/utils/request'
+export const getHome = () => request.get('home')
+export const getCategory = () => request.get('category')
+export const getGoods = params => request({ method: 'get', url: '/categorygoods', params })
+export const getDetail = params => request({ method: 'get', url: '/detail', params })
+// export const getDetail = params => request.get('detail', params)
+export const getCart = () => request.get('cart')
+export const getSearch = () => request.get('search')
+export const Register = () => request.get('register')
+export const login = () => request.get('login')
+export const getUserInfo = () => request.get('userinfo')
