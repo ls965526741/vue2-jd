@@ -14,6 +14,26 @@ npm install
 npm run serve
 ```
 
+### 项目展示
+
+![](./images/jd-01.png)
+
+![](./images/jd-02.png)
+
+
+
+![](./images/jd-03.png)
+
+
+
+![](./images/jd-04.png)
+
+![](./images/jd-05.png)
+
+![](./images/jd-06.png)
+
+![](./images/jd-07.png)
+
 ### 实现功能
 
 #### 网络请求模块
