@@ -79,7 +79,7 @@ npm install
 ### 连接 mysql 服务器
 
 ```js
-// server/src/config/db.config.js
+// server/src/config/config.js
 
 module.exports = {
   MYSQL_HOST: 'localhost',
@@ -98,7 +98,10 @@ module.exports = {
 
 ### 运行项目
 
-```
+```js
+cd server
+npm run dev
+// or
 npm run dev
 ```
 
