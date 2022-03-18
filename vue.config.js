@@ -22,6 +22,14 @@ module.exports = {
         pathRewrite: {
           '^/api': ''
         }
+      },
+      '/img': {
+        target: 'http://localhost:8888',
+        ws: true,
+        changOrigin: true,
+        pathRewrite: {
+          '^/img': '/img'
+        }
       }
     }
   },

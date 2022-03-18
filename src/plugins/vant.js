@@ -18,7 +18,26 @@ import {
   Cell,
   CellGroup,
   Sidebar,
-  SidebarItem
+  SidebarItem,
+  Card,
+  Stepper,
+  SubmitBar,
+  Checkbox,
+  SwipeCell,
+  AddressList,
+  AddressEdit,
+  Area,
+  Form,
+  Field,
+  List,
+  Sticky,
+  Skeleton,
+  Sku,
+  Overlay,
+  Uploader,
+  ActionSheet,
+  Picker,
+  DatetimePicker
 } from 'vant'
 
 Vue.use(Button)
@@ -40,3 +59,22 @@ Vue.use(Cell)
 Vue.use(CellGroup)
 Vue.use(Sidebar)
 Vue.use(SidebarItem)
+Vue.use(Card)
+Vue.use(Stepper)
+Vue.use(SubmitBar)
+Vue.use(Checkbox)
+Vue.use(SwipeCell)
+Vue.use(AddressList)
+Vue.use(AddressEdit)
+Vue.use(Area)
+Vue.use(Form)
+Vue.use(Field)
+Vue.use(List)
+Vue.use(Sticky)
+Vue.use(Skeleton)
+Vue.use(Sku)
+Vue.use(Overlay)
+Vue.use(Uploader)
+Vue.use(ActionSheet)
+Vue.use(Picker)
+Vue.use(DatetimePicker)

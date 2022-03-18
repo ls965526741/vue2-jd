@@ -7,6 +7,10 @@ const request = axios.create({
 })
 request.interceptors.request.use(
   function (config) {
+    const token = localStorage.getItem('token')
+    if (token) {
+      config.headers.authorization = `Bearer ${token}`
+    }
     return config
   },
   function (error) {
@@ -19,8 +23,7 @@ request.interceptors.response.use(
     if (res.status === 200) {
       return res.data
     } else {
-      Toast.fail('请求失败')
-      console.log(2)
+      Toast.fail(res.data.message)
     }
   },
   function (error) {

@@ -12,8 +12,9 @@ const mutations = {
 
 const actions = {
   async getCategory({ commit }) {
-    const res = await getCategory()
-    commit('getCategory', res)
+    const { result } = await getCategory()
+    result.rows.sort((a, b) => a.category_id - b.category_id)
+    commit('getCategory', result.rows)
   }
 }
 

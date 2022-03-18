@@ -1,7 +1,12 @@
 <template>
   <div id="app">
-    <router-view />
-    <Tabbar v-show="$route.meta.tabBar" />
+    <div class="tab-router" v-if="$route.meta.tabBar">
+      <router-view />
+      <Tabbar />
+    </div>
+    <div v-else>
+      <router-view />
+    </div>
   </div>
 </template>
 <script>
@@ -14,9 +19,7 @@ export default {
 </script>
 
 <style lang="less">
-#app {
-  height: calc(100vh - 50px);
-  overflow-y: scroll;
+.tab-router {
   &::-webkit-scrollbar {
     width: 2px;
     height: 10px;
