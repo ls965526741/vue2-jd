@@ -1,4 +1,4 @@
-# 仿JD商场项目 vue2+vant2+koa2
+# 仿 JD 商场项目 vue2+vant2+koa2
 
 ## 前端
 
@@ -18,17 +18,17 @@ npm run serve
 
 #### 网络请求模块
 
-- 通过axiso发送ajax请求
-- 请求拦截实现token的添加
+- 通过 axiso 发送 ajax 请求
+- 请求拦截实现 token 的添加
 - 相应拦截实现对错误响应的统一管理
 
 #### 用户登陆模块
 
 - 账号密码登陆
-- token验证
+- token 验证
 - 修改个人信息
 - 修改头像
-- vue-cropper实现头像图片剪切
+- vue-cropper 实现头像图片剪切
 - 退出登陆
 
 #### 购物车模块
@@ -64,10 +64,8 @@ npm run serve
 
 #### 页面权限管理模块
 
-- 使用beforeEach对判断用户是否登陆，未登陆不允许访问
+- 使用 beforeEach 对判断用户是否登陆，未登陆不允许访问
 - 登陆后重定向到之前的页面
-
-
 
 ## 后端
 
@@ -78,7 +76,7 @@ cd server
 npm install
 ```
 
-### 连接mysql服务器
+### 连接 mysql 服务器
 
 ```js
 // server/src/config/db.config.js
@@ -98,16 +96,12 @@ module.exports = {
 //文件在server/src/db中自行导入
 ```
 
-
-
 ### 运行项目
 
 ```
 npm run dev
 ```
 
-## 
-
-##关于我
+## 关于我
 
 ##### QQ：965536741 微信：xlh950829
