@@ -84,9 +84,9 @@ npm install
 module.exports = {
   MYSQL_HOST: 'localhost',
   MYSQL_PORT: '3306',
-  MYSQL_USER: 'root',
-  MYSQL_PWD: '123123',
-  MYSQL_DB: 'jingdong'
+  MYSQL_USER: '', // 账号
+  MYSQL_PWD: '', // 密码
+  MYSQL_DB: '' // 数据库名
 }
 ```
 
