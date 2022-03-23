@@ -109,7 +109,7 @@ const add = async ctx => {
   const { goods_id } = ctx.request.body
   const user_id = ctx.state.user.id
   //  根据user_id和goods_id同时查找, 有没有记录
-  let res = await Cart.findOne({
+  const res = await Cart.findOne({
     where: {
       [Op.and]: {
         user_id,

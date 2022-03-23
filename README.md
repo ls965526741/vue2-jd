@@ -2,6 +2,18 @@
 
 ## 前端
 
+### 技术栈
+
+```
+vue2
+vuex
+axios
+vant
+vue - router
+vue-cropper
+less
+```
+
 ### 安装依赖
 
 ```
@@ -13,26 +25,6 @@ npm install
 ```
 npm run serve
 ```
-
-### 项目展示
-
-![](./images/jd-01.png)
-
-![](./images/jd-02.png)
-
-
-
-![](./images/jd-03.png)
-
-
-
-![](./images/jd-04.png)
-
-![](./images/jd-05.png)
-
-![](./images/jd-06.png)
-
-![](./images/jd-07.png)
 
 ### 实现功能
 
@@ -125,6 +117,31 @@ npm run dev
 npm run dev
 ```
 
+### 部分截图
+
+#### 主页面
+
+<img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-e3306813-c467-4fe2-a5b0-4f80a8d3051e/821e7bc8-51f7-43e0-805a-cc88da24bad6.png" style="width:100%; margin-top:10px;" alt="">
+
+#### 详情页
+
+<img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-e3306813-c467-4fe2-a5b0-4f80a8d3051e/f8ce8939-5cfb-4179-a070-474d85f8532a.png" style="width:100%; margin-top:10px;" alt="">
+
+#### 购物车
+
+<img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-e3306813-c467-4fe2-a5b0-4f80a8d3051e/7695808b-d529-4781-ac8f-52d94bdd53f5.png" style="width:100%; margin-top:10px;" alt="">
+
+<img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-e3306813-c467-4fe2-a5b0-4f80a8d3051e/df99bca8-01b5-4b91-b8bf-3bccebdc13ef.png" style="width:100%; margin-top:10px;" alt="">
+#### 地址管理
+
+<img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-e3306813-c467-4fe2-a5b0-4f80a8d3051e/5395b949-eab7-46f6-9127-340f0cf2f030.png" style="width:100%; margin-top:10px;" alt="">
+
+#### 个人中心
+
+<img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-e3306813-c467-4fe2-a5b0-4f80a8d3051e/58cc24bb-95f5-471c-ae73-01f7d425c8e3.png" style="width:100%; margin-top:10px;" alt="">
+
+<img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-e3306813-c467-4fe2-a5b0-4f80a8d3051e/52cd51f6-42b2-44fa-9eed-0e52bfaf223a.png" style="width:100%; margin-top:10px;" alt="">
+
 ## 关于我
 
-##### QQ：965536741 微信：xlh950829
+##### QQ：965536741
